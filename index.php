@@ -7,12 +7,14 @@
     <title>timber house</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&family=Work+Sans:ital,wght@1,100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Work+Sans:ital,wght@1,100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <!-- <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css"> -->
+    <?php wp_head(); ?>
 </head>
 <body>
-    <header class="header" style="background-image: url(../img/background.jpg);">
+    <header class="header">
        <div class="header__inner">
            <img src="img/home.png" alt="home">
            <div class="header__name">
@@ -27,6 +29,7 @@
            </div>
        </div> 
     </header>
+    
     <main class="main">
         <div class="container">
         <div class="main__title">
@@ -203,8 +206,9 @@
         </footer>
 
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/main.js"></script> -->
+    <?php wp_footer(); ?>
 </body>
 </html>
